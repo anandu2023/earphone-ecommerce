@@ -1,0 +1,513 @@
+/* --------------------------------
+----- HEADER SECTION -----------
+-------------------------------- */
+header {
+  padding: 40px 0;
+}
+.header-ul {
+  width: 413px;
+  justify-content: space-between;
+  display: flex;
+}
+.header-ul .header-li {
+  position: relative;
+}
+.header-ul .header-li::after {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: black;
+}
+.header-ul .header-li:nth-child(1)::after {
+  display: none;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-cart-sec {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.header-cart-sec span {
+  background-color: var(--light-grey);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* --------------------------------
+-------- BANNER SECTION ----------
+---------------------------------- */
+
+.banner-sec {
+  background: rgb(222, 223, 241);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(222, 223, 241, 1) 0%,
+    rgba(239, 240, 252, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(222, 223, 241, 1) 0%,
+    rgba(239, 240, 252, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(222, 223, 241, 1) 0%,
+    rgba(239, 240, 252, 1) 65%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dedff1",endColorstr="#ffffff",GradientType=1);
+}
+.banner-small-title P {
+  border: 1px solid var(--light-grey);
+  border-radius: 48px;
+  padding: 6px 12px;
+  width: max-content;
+}
+
+.title-sec-two h1 {
+  width: max-content;
+  margin-left: auto;
+}
+.shopping-btn-price {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.shopping-btn-price a {
+  width: max-content;
+  padding: 16px 25px;
+  background-color: var(--primary-orange);
+  color: var(--light-grey);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.banner-shopping-sec {
+  max-width: 367px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  position: relative;
+  top: -100px;
+}
+.banner-bottom-sec-wrapper {
+  display: flex;
+  gap: 16px;
+}
+.banner-bottom-firstsec {
+  flex: 1;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 24px;
+  padding: 40px;
+}
+.banner-bottom-secondsec {
+  flex: 2;
+  background-color: var(--primary-white);
+  border-radius: 24px;
+  padding: 33px;
+}
+.banner-bottom-secondsec h3 {
+  font-size: 28px;
+  text-align: center;
+  max-width: 398px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner-bottom-thirdsec {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.thirdsec-modern h5 {
+  padding: 20px 42px;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    266deg,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 0.11) 100%
+  );
+  background: -webkit-linear-gradient(
+    266deg,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 0.11) 100%
+  );
+  background: linear-gradient(
+    266deg,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 0.11) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+  border-radius: 32px;
+}
+.thirdsec-modern {
+  display: flex;
+  justify-content: space-between;
+}
+.thirdsec-modern span {
+  font-size: 35px;
+  /* padding: 16px; */
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 0.11) 100%
+  );
+  width: 64px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ear-detection h5 {
+  padding: 20px 10px !important;
+}
+.ear-detection span {
+  color: var(--primary-green);
+  background: var(--primary-grey);
+}
+.airpods-sec h5 {
+  color: var(--primary-white);
+  background: var(--primary-grey);
+}
+.airpods-sec {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.bluetooth-sec {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------
+SECOND SECTION MAIN
+------------------- */
+
+.second-top-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+.second-top-sec-one {
+  color: var(--secondary-grey);
+}
+.second-top-sec-two {
+  max-width: 544px;
+}
+.second-top-sec-two h2 span {
+  color: var(--primary-orange);
+}
+.second-top-sec-three {
+  max-width: 307px;
+}
+.second-top-sec-three h6 {
+  color: var(--tertiary-grey);
+}
+.second-sec {
+  padding-bottom: 98px;
+}
+.second-main-sec-block-one {
+  border: 1px solid var(--primary-border);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 68px;
+}
+.second-main-sec-block-one-title {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.second-main-sec-block-two-title-two {
+  text-align: end;
+}
+.second-main-sec-block-two {
+  background-color: var(--primary-blue);
+  border: 1px solid var(--primary-border);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-main-sec-block-three {
+  background-color: var(--primary-grey);
+  opacity: 20%;
+}
+.second-main-sec-block-four {
+  border: 1px solid var(--primary-border);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-main-sec-block-four-title {
+  display: flex;
+  justify-content: space-between;
+}
+.second-main-sec-block-five {
+  border: 1px solid var(--primary-border);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.second-main-sec-block-five-title {
+  display: flex;
+  justify-content: space-between;
+}
+.second-main-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  /* grid-auto-rows: 266px auto; */
+}
+.second-main-sec-block-one {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+.second-main-sec-block-two {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+.second-main-sec-block-three {
+  grid-column: 1 / 2;
+  grid-row: 3 / 6;
+}
+.second-main-sec-block-four {
+  grid-column: 2 / 3;
+  grid-row: 3 / 6;
+}
+.second-main-sec-block-five {
+  grid-column: 4 / 5;
+  grid-row: 2 / 5;
+}
+
+/* ----------------------
+Airpod details section
+---------------------- */
+.airpod-sec {
+  padding: 80px 0;
+  position: relative;
+}
+.airpod-detail-icon-sec i {
+  font-size: 32px;
+  color: var(--primary-white);
+  background-color: var(--primary-grey);
+  padding: 12px;
+  border-radius: 8px;
+}
+.airpod-detail-sec {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.airpod-detail-content {
+  max-width: 430px;
+}
+.airpod-sec-wrapper {
+  max-width: 1087px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 122px;
+}
+.airpod-detail-sec:nth-child(2) {
+  padding-right: 100px;
+  justify-content: end;
+}
+.airpod-detail-sec:nth-child(4) {
+  justify-content: end;
+}
+.airpod-bg-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: -1;
+}
+.airpod-bg-text h1 {
+  font-size: 377px;
+  text-transform: uppercase;
+  color: var(--light-light-grey);
+  text-align: center;
+}
+
+/* ------------------
+Airpod Feature Sec
+------------------ */
+
+.airpod-features-sec {
+  padding: 80px 0;
+}
+.airpod-features-title-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.airpod-features-title-sec-one h2 span {
+  color: var(--primary-orange);
+}
+.airpod-features-title-sec-two {
+  max-width: 307px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.orange-btn a {
+  background-color: var(--primary-orange);
+  color: var(--primary-white);
+  font-size: 16px;
+  padding: 16px 25px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+  border-radius: 100px;
+}
+.content-sub-link-sec-two i {
+  padding: 6px;
+  border: 1px solid var(--primary-black);
+  border-radius: 50%;
+}
+.content-sub-link-sec-one {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.content-sub-link-sec-one h5 {
+  color: var(--tertiary-grey);
+}
+.airpod-features-content-sub-link {
+  display: flex;
+  /* gap: 180px; */
+  justify-content: space-between;
+  max-width: 629px;
+  align-items: center;
+  padding: 17px 24px;
+  border-radius: 70px;
+  border: 1px solid var(--secondary-border);
+}
+.airpod-features-content-sub-link.active {
+  background-color: var(--secondary-blue);
+  border: none;
+}
+.airpod-features-content-sub-one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.airpod-features-content-sub-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.airpod-features-content-sub-arrow i {
+  font-size: 40px;
+}
+.airpod-features-content-sub-two {
+  background-color: var(--secondary-blue);
+  max-width: 474px;
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  padding: 32px;
+  border-radius: 16px;
+  position: relative;
+}
+.airpod-features-content-sub-two::before {
+  position: absolute;
+  content: "";
+  width: 167px;
+  height: 212px;
+  border-radius: 20px;
+  background-color: var(--primary-black);
+  opacity: 20%;
+  top: -30px;
+  right: -111px;
+  z-index: -1;
+}
+.airpod-features-content-sec{
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.airpod-features-content-sec-one {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.airpod-features-content-sec-two{
+  max-width: 482px;
+
+
+ 
+  height: fit-content;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.airpod-features-content-sec-two-num h2{
+  text-align: center;
+  color: var(--tertiary-grey);
+ 
+}
+.airpod-features-content-sec-two-content{
+  background-color: var(--secondary-blue);
+  border-radius: 16px;
+  padding: 32px;
+}
+.airpod-features-content-sec-two-content-title h3{
+ padding-bottom: 32px;
+ border-bottom: 1px solid var(--light-grey);
+}
+.airpod-features-content-sec-two-content-item{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.airpod-features-content-sec-two-content-item-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding-top: 42px;
+}
+.airpod-features-content-sec-two{
+  position: relative;
+}
+.airpod-features-content-sec-img{
+  width: 90px;
+  height: 113px;
+  border-radius: 20px;
+  background-color: var(--primary-black);
+  opacity: 20%;
+  position: absolute;
+  top: 20px;
+  right: 44px;
+  z-index: -1;
+}

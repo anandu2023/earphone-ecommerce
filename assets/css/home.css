@@ -451,7 +451,7 @@ Airpod Feature Sec
   right: -111px;
   z-index: -1;
 }
-.airpod-features-content-sec{
+.airpod-features-content-sec {
   padding-top: 64px;
   display: flex;
   justify-content: space-between;
@@ -461,46 +461,43 @@ Airpod Feature Sec
   flex-direction: column;
   gap: 80px;
 }
-.airpod-features-content-sec-two{
+.airpod-features-content-sec-two {
   max-width: 482px;
 
-
- 
   height: fit-content;
   margin-top: auto;
   display: flex;
   flex-direction: column;
   gap: 33px;
 }
-.airpod-features-content-sec-two-num h2{
+.airpod-features-content-sec-two-num h2 {
   text-align: center;
   color: var(--tertiary-grey);
- 
 }
-.airpod-features-content-sec-two-content{
+.airpod-features-content-sec-two-content {
   background-color: var(--secondary-blue);
   border-radius: 16px;
   padding: 32px;
 }
-.airpod-features-content-sec-two-content-title h3{
- padding-bottom: 32px;
- border-bottom: 1px solid var(--light-grey);
+.airpod-features-content-sec-two-content-title h3 {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--light-grey);
 }
-.airpod-features-content-sec-two-content-item{
+.airpod-features-content-sec-two-content-item {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.airpod-features-content-sec-two-content-item-main{
+.airpod-features-content-sec-two-content-item-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
   padding-top: 42px;
 }
-.airpod-features-content-sec-two{
+.airpod-features-content-sec-two {
   position: relative;
 }
-.airpod-features-content-sec-img{
+.airpod-features-content-sec-img {
   width: 90px;
   height: 113px;
   border-radius: 20px;
@@ -510,4 +507,105 @@ Airpod Feature Sec
   top: 20px;
   right: 44px;
   z-index: -1;
+}
+
+/* ----------------
+FOOTER IMAGE SEC
+---------------- */
+.footer-image-sec-wrapper {
+  display: flex;
+}
+.footer-image-sec-wrapper .footer-img {
+  flex: 1;
+  height: 362px;
+}
+.footer-image-sec-wrapper .footer-img:nth-child(odd) {
+  background-color: black;
+  opacity: 50%;
+}
+.footer-image-sec-wrapper .footer-img:nth-child(even) {
+  background-color: black;
+  opacity: 80%;
+}
+
+/* ---------------
+FOOTER MAIN SEC
+--------------- */
+.footer-main {
+  background-color: var(--primary-grey);
+}
+.footer-sec-title h1 {
+  text-transform: uppercase;
+  font-size: 200px;
+  color: #ffffff41;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.footer-sub-title h2 {
+  padding: 36px 0;
+  border: 2px solid #ffffff41;
+  border-radius: 100px;
+  text-align: center;
+  color: var(--primary-white);
+}
+.footer-link-ul li a {
+  font-size: 18px;
+  color: var(--primary-white);
+}
+.footer-link-col h5 {
+  color: var(--primary-white);
+}
+.footer-link-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-link-col {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 56px;
+}
+.bottom-footer-link-sec-ul {
+  display: flex;
+  gap: 28px;
+}
+.bottom-footer-link-sec-ul li a {
+  font-size: 16px;
+  color: var(--primary-white);
+}
+.bottom-footer-copyright-sec h6 {
+  color: var(--primary-white);
+}
+.bottom-footer-social-media-sec ul li i {
+  color: var(--primary-white);
+}
+.bottom-footer-social-media-sec ul li {
+  padding: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--light-grey);
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  display: flex;
+  margin: auto;
+}
+.bottom-footer-social-media-sec ul {
+  display: flex;
+  gap: 15px;
+}
+.bottom-footer-sec {
+  background-color: var(--secondary-grey);
+}
+.bottom-footer-link-sec-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
 }
